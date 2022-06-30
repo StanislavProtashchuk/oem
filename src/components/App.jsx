@@ -7,6 +7,94 @@ import ContactList from './ContactList';
 export function App() {
 
   const [contacts, setContacts] = useState([
+  
+      {
+      id: nanoid(),
+      name: '2019 LAND ROVER DISCOVERY SPORT SPARE TIRE CONTINENTAL T155/85R18 OEM K8021007RA',
+      number: 'K8021007RA / K8021007 RA / K8 021007 RA',
+      oem: 'LR088518 / LR 088518',
+      notes: 'COMPATIBILITY FOR THE YEAR 2015 / 2016 / 2017 / 2018 / 2019 / 2020'
+    },
+  
+    {
+      id: nanoid(),
+      name: '2019 17 18 LAND ROVER DISCOVERY SPORT WHEEL RIM ALLOY 20X8J ET45 OEM FK7M1007MB',
+      number: 'FK7M1007MB / FK7M1007 MB / FK 7M1007 MB',
+      oem: 'LR085994 / LR 085994',
+      notes: 'COMPATIBILITY FOR THE YEAR 2017 / 2018 / 2019'
+    },
+  
+                                                          {
+      id: nanoid(),
+      name: '2015 – 2019 LAND ROVER DISCOVERY SPORT REAR SUBFRAME LEFT WIRE OEM JK729L468AB',
+      number: 'JK729L468AB / JK729L468 AB / JK 729L468 AB',
+      oem: '',
+      notes: ''
+    },
+                                                        {
+      id: nanoid(),
+      name: '2015 – 2019 LAND ROVER DISCOVERY SPORT REAR SUBFRAME RIGHT WIRE OEM JK729L468BC',
+      number: 'JK729L468BC / JK729L468 BC / JK 729L468 BC',
+      oem: '',
+      notes: ''
+    },
+                                                      {
+      id: nanoid(),
+      name: '2015–2019 LAND ROVER DISCOVERY SPORT STEERING GEAR WIRE HARNESS OEM JK7214A614BK',
+      number: 'JK7214A614BK / JK7214A614 BK / JK 7214A614 BK',
+      oem: 'LR060806 / LR 060806',
+      notes: ''
+    },
+  
+                                                    {
+      id: nanoid(),
+      name: '2015 – 2019 LAND ROVER DISCOVERY SPORT WIRE WIRING HARNESS OEM HJ329137CA',
+      number: 'HJ329137CA / HJ329137 CA / HJ 329137 CA',
+      oem: '',
+      notes: ''
+    },
+                                                  {
+      id: nanoid(),
+      name: '2015–2020 LAND ROVER DISCOVERY SPORT FRONT WIPER LINKAGE & MOTOR OEM FK7217500AC',
+      number: 'FK7217500AC / FK7217500 AC / FK 7217500 AC',
+      oem: 'LR058845 / LR 058845',
+      notes: ''
+    },
+                                                {
+      id: nanoid(),
+      name: '2015–2020 LAND ROVER DISCOVERY SPORT REAR WIPER LINKAGE W/ MOTOR OEM FK7217404AC',
+      number: 'FK7217404AC / FK7217404 AC / FK 7217404 AC',
+      oem: 'LR060921 / LR 060921',
+      notes: ''
+    },
+                                              {
+      id: nanoid(),
+      name: '2015 – 2020 LAND ROVER DISCOVERY SPORT LEFT HEADLIGHT WASHER OEM FK7213L015AA',
+      number: 'FK7213L015AA / FK7213L015 AA / FK 7213L015 AA',
+      oem: 'LR061219 / LR 061219',
+      notes: ''
+    },
+                                            {
+      id: nanoid(),
+      name: '2015 –2020 LAND ROVER DISCOVERY SPORT WASHER BOTTLE FILLER NECK OEM FK7217C615AA',
+      number: 'FK7217C615AA / FK7217C615 AA / FK 7217C615 AA',
+      oem: 'LR084365 / LR 084365',
+      notes: ''
+    },
+                                          {
+      id: nanoid(),
+      name: '2015 – 2020 LAND ROVER DISCOVERY SPORT FRONT RIGHT SEAT AIR BAG OEM BJ32611D32AC',
+      number: 'BJ32611D32AC / BJ32611D32 AC / BJ 32611D32 AC',
+      oem: 'LR026019 / LR 026019',
+      notes: ''
+    },
+                                        {
+      id: nanoid(),
+      name: '2015 –2020 LAND ROVER DISCOVERY SPORT DASH RIGHT AIR BAG AIRBAG OEM FK72044A74BA',
+      number: 'FK72044A74BA / FK72044A74 BA / FK 72044A74 BA',
+      oem: 'LR066774 / LR 066774',
+      notes: ''
+    },
                                       {
       id: nanoid(),
       name: '2015 - 2019 LAND ROVER DISCOVERY SPORT REAR BUMPER REINFORCEMENT OEM FK7217906AE',
@@ -101,7 +189,7 @@ export function App() {
             {
       id: nanoid(),
       name: '2015 - 2019 LAND ROVER DISCOVERY SPORT ANTENNA MODULE CONNECTOR OEM K8D219C097AA',
-      number: 'K8D219C097AA / K8D219C097 AA / K8D2 19C097 AA	',
+      number: 'K8D219C097AA / K8D219C097 AA / K8D 219C097 AA	',
       oem: 'LT95439 / LT 95439, LR044855 / LR 044855',
       notes: ''
     },
@@ -202,7 +290,7 @@ export function App() {
 
   function handleFilter(e) {
     const { value } = e.currentTarget;
-    setFilter(value);
+    setFilter(value.trim());
   };
 
   function filteredContacts() {
