@@ -7,9 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
+
   background-color: #eec0c6;
-  background-image: linear-gradient(315deg, #eec0c6 0%, #35c4dd 74%);
+  background-image: linear-gradient(315deg, #eec0c6 0%, #35c4dd );
   color: rgb(255, 255, 255);
 }
 
@@ -27,6 +27,7 @@ li,
 p {
   margin-top: 20px;
   margin-bottom: 0px;
+  max-width: 480px;
 }
 
 img {
@@ -46,8 +47,8 @@ ul {
 }
 
 div {
-  width: 320px;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      width: 320px;
 }
