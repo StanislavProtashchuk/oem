@@ -27,7 +27,7 @@ export function App() {
         "number": "HK7214632ARE / HK7214632 ARE / HK 7214632 ARE",
         "oem": "",
         "notes": ""
-    }
+    },
     {
 id: nanoid(),
 name: '2015 - 2019 LAND ROVER DISCOVERY SPORT TURN SIGNAL SWITCH OEM BJ323F972CC',
