@@ -7,6 +7,27 @@ import ContactList from './ContactList';
 export function App() {
 
   const [contacts, setContacts] = useState([
+      {
+        "id": "e5ybkg3uuqF82D0Bi_jgz",
+        "name": "2015 – 2019 LAND ROVER DISCOVERY SPORT TAILGATE WIRING HARNESS OEM FK7214A583CE",
+        "number": "FK7214A583CE / FK7214A583 CE / FK 7214A583 CE",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "fR7OMlCV7R99RSoB8x73J",
+        "name": "2015 – 2019 LAND ROVER DISCOVERY SPORT TAILGATE RIGHT SIDE WIRE OEM JK7214B562BB",
+        "number": "JK7214B562BB / JK7214B562 BB / JK 7214B562 BB",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "essJUqEoU0ayTYLPL2Ueu",
+        "name": "2015 – 2019 LAND ROVER DISCOVERY SPORT TAILGATE RIGHT SIDE WIRE OEM HK7214632ARE",
+        "number": "HK7214632ARE / HK7214632 ARE / HK 7214632 ARE",
+        "oem": "",
+        "notes": ""
+    }
     {
 id: nanoid(),
 name: '2015 - 2019 LAND ROVER DISCOVERY SPORT TURN SIGNAL SWITCH OEM BJ323F972CC',
