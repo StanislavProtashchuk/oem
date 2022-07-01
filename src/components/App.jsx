@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
-// import ContactForm from "./ContactForm";
+import ContactForm from "./ContactForm";
 import Filter from './Filter';
 import ContactList from './ContactList';
 
 export function App() {
 
   const [contacts, setContacts] = useState([
-  {
+    {
 id: nanoid(),
 name: '2015 - 2019 LAND ROVER DISCOVERY SPORT TURN SIGNAL SWITCH OEM BJ323F972CC',
 number: 'BJ323F972CC / BJ323F972 CC / BJ32 3F972 CC',
@@ -535,24 +535,28 @@ notes: ''
       number: 'GK7218A145 / GK 7218A145',
       oem: 'LR124717 / LR 124717',
       notes: ''
-    },
+    }
+    ,
   ]);
-  const [filter, setFilter] = useState('');
+  
+  const [filter, setFilter] = useState(() => '');
 
 
-  // function formSubmitHandler({name, number}) {
-  //   if (contacts.map(contact => contact.name.toLowerCase()).includes(name.toLowerCase())){
-  //     return alert(`${name} is already in contacts`)
-  //   };
+  function formSubmitHandler({ name, number, oem, notes }) {
+    if (contacts.map(contact => contact.name.toLowerCase()).includes(name.toLowerCase())) {
+      return alert(`${name} is already in contacts`)
+    };
 
-  //   const contact = {
-  //     id: nanoid(),
-  //     name,
-  //     number
-  //   };
+    const contact = {
+      id: nanoid(),
+      name,
+      number,
+      oem,
+      notes
+    };
 
-  //   setContacts(contacts => ([...contacts, contact]));
-  // };
+    setContacts(contacts => ([...contacts, contact]));
+  };
 
   function handleFilter(e) {
     const { value } = e.currentTarget;
@@ -560,7 +564,7 @@ notes: ''
   };
 
   function filteredContacts() {
-    return contacts.filter(contact => contact.name.toUpperCase().includes(filter.toUpperCase()));
+    return contacts.filter(contact => contact.name.toLowerCase().includes(filter.toLowerCase()));
   };
 
   function deleteContact(id) {
@@ -569,14 +573,15 @@ notes: ''
   };
 
   useEffect(() => {
-    window.localStorage.setItem('contacts', JSON.stringify(contacts));
-  })
+      window.localStorage.setItem('contacts', JSON.stringify(contacts));
+    })
+
 
     return (
       <div>
-        {/* <h1>Phonebook</h1>
-        <ContactForm onSubmit={formSubmitHandler} /> */}
-        <h2>Parts:</h2>
+        <h1>OEM Parts</h1>
+        <ContactForm onSubmit={formSubmitHandler} />
+        <h2>Contacts</h2>
         <Filter value={filter} onChange={handleFilter} />
         <ContactList filteredContacts={filteredContacts()} deleteContact={deleteContact} />
       </div>
