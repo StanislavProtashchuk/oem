@@ -23,7 +23,7 @@ export default function ContactList ({ filteredContacts, deleteContact }) {
                         <h2 className={s.title}>Notes:</h2>
                         <p className={s.value}>{notes}</p>
                     </div>    
-                    {/* <button className={s.button} type='button' id={id} onClick={() => deleteContact(id)}>Delete</button> */}
+                    <button className={s.button} type='button' id={id} onClick={() => deleteContact(id)}>Delete</button>
                 </li>
         )})}
         </ul>
