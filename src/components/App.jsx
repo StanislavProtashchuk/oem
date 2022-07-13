@@ -1531,13 +1531,6 @@ export function App() {
             "notes": ""
         },
         {
-            "id": "yk18wj4h-pNVjD7LbOFF9",
-            "name": "2015 - 2019 FORD TRANSIT-250 AIRBAG CRASH IMPACT SENSOR WIRE OEM CK4T14B446LC",
-            "number": "CK4T14B446LC / CK4T14B446 LC / CK4T 14B446 LC\t",
-            "oem": "BK2Z14B004A / BK2Z14B004 A / BK2Z 14B004 A\t",
-            "notes": ""
-        },
-        {
             "id": "dYsEsQvxGVEuiA0R_lLAR",
             "name": "2015 16 17 18 19 20 FORD TRANSIT-250 WHEEL RIM STEEL 16X6.5J OEM CK41AB WHITE=YZ",
             "number": "CK41AB / CK41 AB\t",
