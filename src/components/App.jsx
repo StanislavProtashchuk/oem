@@ -7,6 +7,34 @@ import ContactList from './ContactList';
 export function App() {
 
     const [contacts, setContacts] = useState([
+    {
+        "id": "vF8vyPpwdgC9Y0WmzleI_",
+        "name": "2011 - 2019 DODGE CHARGER FRONT LEFT SIDE DOOR CONTROL MODULE OEM 68316561AD",
+        "number": "68316561AD / 68316561 AD\t",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "bmDnt2Ifp4fsTYRD9jeZ3",
+        "name": "2011 - 2019 DODGE CHARGER FUEL FILLER NECK LINE PIPE HOSE TUBE OEM 52029694AG",
+        "number": "52029694AG / 52029694 AG\t",
+        "oem": "52029694AI / 52029694 AI",
+        "notes": ""
+    },
+    {
+        "id": "6ivu752yC4OGize49UVvD",
+        "name": "2015 - 2022 DODGE CHARGER 6.4L REAR DIFFERENTIAL CARRIER 24K OEM 68269917AG",
+        "number": "68269917AG / 68269917 AG",
+        "oem": "68427796AA / 68427796 AA",
+        "notes": ""
+    },
+    {
+        "id": "yypqnzo2utHSJCEKizque",
+        "name": "2015- 2022 DODGE CHARGER REAR RIGHT TAILLIGHT LIGHT LAMP ASSEMBLY OEM 3341933RAC",
+        "number": "3341933RAC / 3341933R AC",
+        "oem": "68213144AD / 68213144 AD\t",
+        "notes": ""
+    },
         {
         "id": "0AXlMnOecYMx9IqNqc--c",
         "name": "2015 - 2019 DODGE CHARGER FRONT BUMPER LEFT SIDE FOG LIGHT LAMP OEM 0009403831",
