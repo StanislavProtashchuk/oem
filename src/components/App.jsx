@@ -8,138 +8,167 @@ export function App() {
 
     const [contacts, setContacts] = useState([
     {
-        "id": "vF8vyPpwdgC9Y0WmzleI_",
-        "name": "2011 - 2019 DODGE CHARGER FRONT LEFT SIDE DOOR CONTROL MODULE OEM 68316561AD",
-        "number": "68316561AD / 68316561 AD\t",
+        "id": "FIz1BUn555ODq5P_LnNG6",
+        "name": "2015-2019 DODGE CHARGER FRONT LEFT DOOR TRIM PANEL OEM L0185001DX9AC BLACK=GQX9",
+        "number": "L0185001DX9AC / L0185001DX9 AC",
+        "oem": "5PF031X9AK / 5PF031X9 AK\t",
+        "notes": ""
+    },
+    {
+        "id": "54KZxnyvopNZB0m2heub2",
+        "name": "2012 - 2022 DODGE CHARGER FRONT LEFT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
+        "number": "05181860AA / 05181860 AA",
         "oem": "",
-        "notes": ""
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
     },
     {
-        "id": "bmDnt2Ifp4fsTYRD9jeZ3",
-        "name": "2011 - 2019 DODGE CHARGER FUEL FILLER NECK LINE PIPE HOSE TUBE OEM 52029694AG",
-        "number": "52029694AG / 52029694 AG\t",
-        "oem": "52029694AI / 52029694 AI",
-        "notes": ""
+        "id": "7gFm1-76gd-hzvuzT7E43",
+        "name": "2012 - 2022 DODGE CHARGER FRONT RIGHT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
+        "number": "05181860AA / 05181860 AA",
+        "oem": "",
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
     },
     {
-        "id": "6ivu752yC4OGize49UVvD",
-        "name": "2015 - 2022 DODGE CHARGER 6.4L REAR DIFFERENTIAL CARRIER 24K OEM 68269917AG",
-        "number": "68269917AG / 68269917 AG",
-        "oem": "68427796AA / 68427796 AA",
-        "notes": ""
+        "id": "ox6SrECbuzeE01AfhpD26",
+        "name": "2011 - 2022 DODGE CHARGER FRONT LEFT SEAT BACK TRIM COVER PANEL OEM L02J2309AC",
+        "number": "L02J2309AC / L02J2309 AC",
+        "oem": "1UY02DX9AC / 1UY02DX9 AC\t",
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
     },
-    {
-        "id": "yypqnzo2utHSJCEKizque",
-        "name": "2015- 2022 DODGE CHARGER REAR RIGHT TAILLIGHT LIGHT LAMP ASSEMBLY OEM 3341933RAC",
-        "number": "3341933RAC / 3341933R AC",
-        "oem": "68213144AD / 68213144 AD\t",
-        "notes": ""
-    },
+
         {
-        "id": "0AXlMnOecYMx9IqNqc--c",
-        "name": "2015 - 2019 DODGE CHARGER FRONT BUMPER LEFT SIDE FOG LIGHT LAMP OEM 0009403831",
-        "number": "0009403831",
-        "oem": "68425774AA / 68425774 AA",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "90_B9VVrqStJWynN3MlHb",
-        "name": "2015 - 2019 DODGE CHARGER FRONT BUMPER RIGHT SIDE FOG LIGHT LAMP OEM 0009403831",
-        "number": "0009403831",
-        "oem": "68425774AA / 68425774 AA",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "0UOheBH2BOhft8JRBl6Yt",
-        "name": "2012 - 2022 DODGE CHARGER 6.4L ENGINE MOTOR ASSEMBLY 24K MILEAGE OEM 05037400NA",
-        "number": "05037400NA / 05037400 NA",
-        "oem": " 68280510AD / 68280510 AD, 68280511AD / 68280511 AD",
-        "notes": ""
-    },
-    {
-        "id": "fufURHmXoqLUaDeKQlRL_",
-        "name": "2015-2022 DODGE CHARGER 6.4L ENGINE COOLING FAN & SHROUD ASSEMBLY OEM 68236868AB",
-        "number": "68236868AB / 68236868 AB",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "trrofakmLMiDPf7NYV4cn",
-        "name": "2015 - 2019 DODGE CHARGER FRONT LEFT DOOR WINDOW SWITCH MODULE OEM 68262253AC",
-        "number": "68262253AC / 68262253 AC",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "ER4wbyaZ6Mu0F1srZU5p-",
-        "name": "2015 - 2022 DODGE CHARGER DASH DASHBOARD INSTRUMENT PANEL ASSEMBLY OEM 0199048AJ",
-        "number": "0199048AJ / 0199048 AJ",
-        "oem": "6DJ56DX9AD / 6DJ56DX9 AD\t",
-        "notes": "AIRBAG NOT INCLUDED. COMMERCIAL ADDRESS REQUIRED FOR SHIPPING."
-    },
-    {
-        "id": "dqF6Qh9QHIMi31qtstsqa",
-        "name": "2011 - 2019 DODGE CHARGER LEFT DOOR REAR VIEW MIRROR OEM 1NJ05DX8AL BLACK=PX8",
-        "number": "1NJ05DX8AL / 1NJ05DX8 AL\t",
-        "oem": "",
-        "notes": "1nj05dx8"
-    },
-    {
-        "id": "Xy-xhPl_FncnIdaVYilLS",
-        "name": "2011 - 2022 DODGE CHARGER RWD POWER STEERING COLUMN ASSEMBLY OEM 68259474AD",
-        "number": "68259474AD / 68259474 AD",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "fFSgZA9DVbeOqLrMDfE1G",
-        "name": "2019 - 2022 DODGE CHARGER CENTER CONSOLE RIGHT FORWARD TRIM COVER OEM 6QY42DX9AB",
-        "number": "6QY42DX9AB / 6QY42DX9 AB\t",
-        "oem": "6QY42DX9AC / 6QY42DX9 AC",
-        "notes": ""
-    },
-    {
-        "id": "1kcXsYGb0o5OsGeSIYsCu",
-        "name": "2019 DODGE CHARGER REAR RIGHT SIDE BLIND SPOT RADAR SENSOR MODULE OEM 04672782AA",
-        "number": "04672782AA / 04672782 AA",
-        "oem": "",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "mxjrzxN0gv3SADcC0hTdS",
-        "name": "2019 DODGE CHARGER REAR LEFT SIDE BLIND SPOT RADAR SENSOR MODULE OEM 04672782AA",
-        "number": "04672782AA / 04672782 AA\t",
-        "oem": "",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "Sl3Ag49cY5PuWnYXiTmyq",
-        "name": "2019 DODGE CHARGER BCM BODY CONTROL MODULE UNIT OEM 68396563AC",
-        "number": "68396563AC / 68396563 AC",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "3RUHt1Fz9Qt1lJLetD9aF",
-        "name": "2015 - 2022 DODGE CHARGER FRONT LEFT DRIVER SEAT CONTROL MODULE OEM 68292376AA",
-        "number": "68292376AA / 68292376 AA",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "zZUlIqorSeZVxV8AL5IfD",
-        "name": "2017 - 2019 DODGE CHARGER FRONTRIGHT SIDE SEAT CONTROL MODULE OEM 68309713AA",
-        "number": "68309713AA / 68309713 AA",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "f6j6K-SuAj8-PpqcEv_a8",
-        "name": "2015-2022 DODGE CHARGER DASH LEFT HEADLIGHT SWITCH CONTROL MODULE OEM 68141053AC",
-        "number": "68141053AC / 68141053 AC\t",
-        "oem": "",
-        "notes": ""
-    },
+            "id": "vF8vyPpwdgC9Y0WmzleI_",
+            "name": "2011 - 2019 DODGE CHARGER FRONT LEFT SIDE DOOR CONTROL MODULE OEM 68316561AD",
+            "number": "68316561AD / 68316561 AD\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "bmDnt2Ifp4fsTYRD9jeZ3",
+            "name": "2011 - 2019 DODGE CHARGER FUEL FILLER NECK LINE PIPE HOSE TUBE OEM 52029694AG",
+            "number": "52029694AG / 52029694 AG\t",
+            "oem": "52029694AI / 52029694 AI",
+            "notes": ""
+        },
+        {
+            "id": "6ivu752yC4OGize49UVvD",
+            "name": "2015 - 2022 DODGE CHARGER 6.4L REAR DIFFERENTIAL CARRIER 24K OEM 68269917AG",
+            "number": "68269917AG / 68269917 AG",
+            "oem": "68427796AA / 68427796 AA",
+            "notes": ""
+        },
+        {
+            "id": "yypqnzo2utHSJCEKizque",
+            "name": "2015- 2022 DODGE CHARGER REAR RIGHT TAILLIGHT LIGHT LAMP ASSEMBLY OEM 3341933RAC",
+            "number": "3341933RAC / 3341933R AC",
+            "oem": "68213144AD / 68213144 AD\t",
+            "notes": ""
+        },
+        {
+            "id": "0AXlMnOecYMx9IqNqc--c",
+            "name": "2015 - 2019 DODGE CHARGER FRONT BUMPER LEFT SIDE FOG LIGHT LAMP OEM 0009403831",
+            "number": "0009403831",
+            "oem": "68425774AA / 68425774 AA",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "90_B9VVrqStJWynN3MlHb",
+            "name": "2015 - 2019 DODGE CHARGER FRONT BUMPER RIGHT SIDE FOG LIGHT LAMP OEM 0009403831",
+            "number": "0009403831",
+            "oem": "68425774AA / 68425774 AA",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "0UOheBH2BOhft8JRBl6Yt",
+            "name": "2012 - 2022 DODGE CHARGER 6.4L ENGINE MOTOR ASSEMBLY 24K MILEAGE OEM 05037400NA",
+            "number": "05037400NA / 05037400 NA",
+            "oem": " 68280510AD / 68280510 AD, 68280511AD / 68280511 AD",
+            "notes": ""
+        },
+        {
+            "id": "fufURHmXoqLUaDeKQlRL_",
+            "name": "2015-2022 DODGE CHARGER 6.4L ENGINE COOLING FAN & SHROUD ASSEMBLY OEM 68236868AB",
+            "number": "68236868AB / 68236868 AB",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "trrofakmLMiDPf7NYV4cn",
+            "name": "2015 - 2019 DODGE CHARGER FRONT LEFT DOOR WINDOW SWITCH MODULE OEM 68262253AC",
+            "number": "68262253AC / 68262253 AC",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "ER4wbyaZ6Mu0F1srZU5p-",
+            "name": "2015 - 2022 DODGE CHARGER DASH DASHBOARD INSTRUMENT PANEL ASSEMBLY OEM 0199048AJ",
+            "number": "0199048AJ / 0199048 AJ",
+            "oem": "6DJ56DX9AD / 6DJ56DX9 AD\t",
+            "notes": "AIRBAG NOT INCLUDED. COMMERCIAL ADDRESS REQUIRED FOR SHIPPING."
+        },
+        {
+            "id": "dqF6Qh9QHIMi31qtstsqa",
+            "name": "2011 - 2019 DODGE CHARGER LEFT DOOR REAR VIEW MIRROR OEM 1NJ05DX8AL BLACK=PX8",
+            "number": "1NJ05DX8AL / 1NJ05DX8 AL\t",
+            "oem": "",
+            "notes": "1nj05dx8"
+        },
+        {
+            "id": "Xy-xhPl_FncnIdaVYilLS",
+            "name": "2011 - 2022 DODGE CHARGER RWD POWER STEERING COLUMN ASSEMBLY OEM 68259474AD",
+            "number": "68259474AD / 68259474 AD",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "fFSgZA9DVbeOqLrMDfE1G",
+            "name": "2019 - 2022 DODGE CHARGER CENTER CONSOLE RIGHT FORWARD TRIM COVER OEM 6QY42DX9AB",
+            "number": "6QY42DX9AB / 6QY42DX9 AB\t",
+            "oem": "6QY42DX9AC / 6QY42DX9 AC",
+            "notes": ""
+        },
+        {
+            "id": "1kcXsYGb0o5OsGeSIYsCu",
+            "name": "2019 DODGE CHARGER REAR RIGHT SIDE BLIND SPOT RADAR SENSOR MODULE OEM 04672782AA",
+            "number": "04672782AA / 04672782 AA",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "mxjrzxN0gv3SADcC0hTdS",
+            "name": "2019 DODGE CHARGER REAR LEFT SIDE BLIND SPOT RADAR SENSOR MODULE OEM 04672782AA",
+            "number": "04672782AA / 04672782 AA\t",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "Sl3Ag49cY5PuWnYXiTmyq",
+            "name": "2019 DODGE CHARGER BCM BODY CONTROL MODULE UNIT OEM 68396563AC",
+            "number": "68396563AC / 68396563 AC",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "3RUHt1Fz9Qt1lJLetD9aF",
+            "name": "2015 - 2022 DODGE CHARGER FRONT LEFT DRIVER SEAT CONTROL MODULE OEM 68292376AA",
+            "number": "68292376AA / 68292376 AA",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "zZUlIqorSeZVxV8AL5IfD",
+            "name": "2017 - 2019 DODGE CHARGER FRONTRIGHT SIDE SEAT CONTROL MODULE OEM 68309713AA",
+            "number": "68309713AA / 68309713 AA",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "f6j6K-SuAj8-PpqcEv_a8",
+            "name": "2015-2022 DODGE CHARGER DASH LEFT HEADLIGHT SWITCH CONTROL MODULE OEM 68141053AC",
+            "number": "68141053AC / 68141053 AC\t",
+            "oem": "",
+            "notes": ""
+        },
 
         {
             "id": "EE3IiWExwWP_Cf-WgkLpl",
