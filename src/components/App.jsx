@@ -8,208 +8,355 @@ export function App() {
 
     const [contacts, setContacts] = useState([
         {
-        "id": "hfya_RU2YK9uCvztqqw8j",
-        "name": "2015 - 2022 DODGE CHARGER FRONT UPPER RADIATOR SUPPORT BRACKET OEM 68200478AA",
-        "number": "68200478AA / 68200478 AA",
-        "oem": "68200478AC / 68200478 AC\t",
-        "notes": ""
-    },
-    {
-        "id": "Asog5aTQC5ld5zuJlRkjp",
-        "name": "2006 - 2022 DODGE CHARGER FRONT LOWER RADIATOR SUPPORT BRACKET OEM 05065240AG",
-        "number": "05065240AG / 05065240 AG",
+        "id": "WEcEmZdCnqswqKeOmvcyx",
+        "name": "2014 - 2022 DODGE CHARGER 6.4L A/C AIR CONDITIONING SUCTION LINE OEM 68158875AD",
+        "number": "68158875AD / 68158875 AD\t",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "mpQVVzZO3uAhlUi1apCJ4",
-        "name": "2015 - 2022 DODGE CHARGER LEFT SIDE ROCKER MOLDING COVER PANEL OEM 1QA51TRMAE",
-        "number": "1QA51TRMAE / 1QA51TRM AE",
-        "oem": "68433579AC / 68433579 AC\t",
-        "notes": ""
-    },
-    {
-        "id": "GV_Sml_lpbLomsYkzB46p",
-        "name": "2011 - 2022 DODGE CHARGER REAR LEFT DOOR WINDOW GLASS REGULATOR OEM 156054332",
-        "number": "156054332",
-        "oem": "68103999AA / 68103999 AA\t",
-        "notes": ""
-    },
-    {
-        "id": "y_qLpKwLPAy8DHbpB-IwL",
-        "name": "2011 - 2022 DODGE CHARGER REAR LEFT SIDE DOOR LATCH LOCK ACTUATOR OEM 04589915AE",
-        "number": "04589915AE / 04589915 AE",
+        "id": "e5QELoKGL-IZaO3PRcRLH",
+        "name": "2011 - 2022 DODGE CHARGER YAW RATE STABILITY CONTROL SENSOR OEM 56029549AD",
+        "number": "56029549AD / 56029549 AD",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "L0IiOlVkP8VmCn8X4_Nez",
-        "name": "2006 - 2022 DODGE CHARGER 6.4L ENGINE COOLING RADIATOR ASSEMBLY OEM 1007742AA",
-        "number": "1007742AA / 1007742 AA",
-        "oem": "5170742AA / 5170742 AA",
+        "id": "fRPj2-DE7bZ6gN790A8Wy",
+        "name": "2011- 2022 DODGE CHARGER WINDSHIELD WASHER FLUID RESERVOIR BOTTLE OEM 68082461AD",
+        "number": "68082461AD / 68082461 AD\t",
+        "oem": "68125524AA / 68125524 AA",
         "notes": ""
     },
     {
-        "id": "TufEeDy5JsWjzH9yZ9OSH",
-        "name": "2014 - 2022 DODGE CHARGER POWER BRAKE BOOSTER W/ RESERVOIR OEM 68053596AA",
-        "number": "68053596AA / 68053596 AA\t",
-        "oem": "68237808AC / 68237808 AC",
+        "id": "Q0NCCHRxWipL2BVfbYpYB",
+        "name": "2013 - 2022 DODGE CHARGER 6.4L FRONT WINDSHIELD WIPER LINKAGE OEM 68082728AF",
+        "number": "68082728AF / 68082728 AF\t",
+        "oem": "68193884AA / 68193884 AA",
         "notes": ""
     },
     {
-        "id": "TWaM1vQtHvUAKMsa5hcF2",
-        "name": "2013 - 2019 DODGE CHARGER REAR RIGHT EXTERIOR DOOR HANDLE OEM 761066AC BLACK=PX8",
-        "number": "761066AC / 761066 AC\t",
-        "oem": "1MZ80FHGAG / 1MZ80FHG AG\t",
-        "notes": ""
-    },
-    {
-        "id": "OypqvoNsAzuctvvqDERB5",
-        "name": "2012 - 2022 DODGE CHARGER REAR LEFT EXTERIOR DOOR HANDLE OEM 761067AC BLACK=PX8",
-        "number": "761067AC / 761067 AC\t",
-        "oem": "1MZ81DX8AH / 1MZ81DX8 AH\t",
-        "notes": ""
-    },
-    {
-        "id": "SBvcLNgI9IM4gdi7UkT2E",
-        "name": "2015 - 2022 DODGE CHARGER FRONT RIGHT FENDER LINER SPLASH SHIELD OEM 68477156AA",
-        "number": "68477156AA / 68477156 AA\t",
+        "id": "gfVExwAnEFraL9N26GxTf",
+        "name": "2018- 2022 DODGE CHARGER STEERING GEAR JUMPER WIRE WIRING HARNESS OEM 68350469AB",
+        "number": "68350469AB / 68350469 AB\t",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "_HEkxUX6zlFIZuj70cv9g",
-        "name": "2015 - 2022 DODGE CHARGER FRONT LEFT FENDER LINER SPLASH SHIELD OEM 68205937AF",
-        "number": "68205937AF / 68205937 AF\t",
-        "oem": "",
+        "id": "uxraUcaO5NyocTFmxYeKi",
+        "name": "2019 DODGE CHARGER 6.4L ENGINE WIRE WIRING HARNESS W/ FUSE BOX OEM 68384426AC",
+        "number": "68384426AC / 68384426 AC\t",
+        "oem": "68384426AD / 68384426 AD\t",
         "notes": ""
     },
     {
-        "id": "teRRxHh0SXWb1NfzUDb9C",
-        "name": "2011 - 2022 DODGE CHARGER FRONT LEFT REARWARD LOWER CONTROL ARM OEM 70206823",
-        "number": "70206823",
-        "oem": "5168389AB / 5168389 AB\t",
+        "id": "2AAyAdxa6ZflfPBC8D-Xw",
+        "name": "2019 - 2022 DODGE CHARGER REAR LEFT DOOR WIRE WIRING HARNESS OEM 68409482AB",
+        "number": "68409482AB / 68409482 AB\t",
+        "oem": "",
         "notes": "FITS ANY SIDES, RIGHT AND LEFT."
     },
     {
-        "id": "UcFxFJpWOfnenCU0_ecdq",
-        "name": "2015 - 2022 DODGE CHARGER REAR RIGHT INTERIOR DOOR PULL HANDLE OEM 5PF60DX9AE",
-        "number": "5PF60DX9AE / 5PF60DX9 AE",
-        "oem": "5PF60DX9AF / 5PF60DX9 AF\t",
+        "id": "0Z0izZ2VQno33hktMztmk",
+        "name": "2019 - 2022 DODGE CHARGER REAR RIGHT DOOR WIRE WIRING HARNESS OEM 68409482AB",
+        "number": "68409482AB / 68409482 AB",
+        "oem": "",
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+    },
+    {
+        "id": "SjKbJLB94KebEaTOovNcb",
+        "name": "2019 DODGE CHARGER FRONT LEFT SIDE DOOR WIRE WIRING HARNESS OEM 68409485AB",
+        "number": "68409485AB / 68409485 AB",
+        "oem": "68409485AC / 68409485 AC",
         "notes": ""
     },
     {
-        "id": "PAntPCtnVEwx3IkeLDTDc",
-        "name": "2011 - 2019 DODGE CHARGER FUEL FILLER TANK DOOR HOUSING BASE OEM 68037875AD",
-        "number": "68037875AD / 68037875 AD\t",
-        "oem": "68037875AE / 68037875 AE",
-        "notes": ""
-    },
-    {
-        "id": "L5FGN8oRe2qtJeoA25fs6",
-        "name": "2011 - 2022 DODGE CHARGER FRONT RIGHT SIDE SEAT BELT RETRACTOR OEM 1HZ06DX9AH",
-        "number": "1HZ06DX9AH / 1HZ06DX9 AH",
-        "oem": "1HZ06DX9AI / 1HZ06DX9 AI",
-        "notes": ""
-    },
-    {
-        "id": "54IWTZ-qervce29MA7xUl",
-        "name": "2011-2022 DODGE CHARGER FRONT LEFT SIDE DOOR LOCK LATCH ACTUATOR OEM 04589913AG",
-        "number": "04589913AG / 04589913 AG",
-        "oem": "4589913AB / 4589913 AB",
-        "notes": ""
-    },
-    {
-        "id": "bbmNIi_tmkw3xA2XIMcFm",
-        "name": "2015 - 2022 DODGE CHARGER 6.4L ENGINE RIGHT SIDE SHIELD COVER OEM 05281358AA",
-        "number": "5281358AA / 5281358 AA",
+        "id": "ajMEhNPPL3pSUXM256iBe",
+        "name": "2015 - 2022 DODGE CHARGER AUTOMATIC TRANSMISSION SHIFTER CABLE OEM 04670708AA",
+        "number": "04670708AA / 04670708 AA",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "oQJ-pvwrcXFG2GXtjmS15",
-        "name": "2015 - 2022 DODGE CHARGER 6.4L ENGINE LEFT SIDE SHIELD COVER OEM 05281359AA",
-        "number": "5281358AA / 5281358 AA\t",
+        "id": "9tjCbJucZkLpH2X3P5AHl",
+        "name": "2015 - 2022 DODGE CHARGER TRANSMISSION MOUNT BRACKET SUPPORT OEM 68170323AA",
+        "number": "68170323AA / 68170323 AA",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "XsYsZ8buCfOjxoqkRC-NH",
-        "name": "2011 -2020 DODGE CHARGER FRONT LEFT SEAT LUMBAR ADJUSTMENT SWITCH OEM 56046232AB",
-        "number": "56046232AB / 56046232 AB\t",
+        "id": "o6Qmua_Z1AIjrKxet4N2M",
+        "name": "2015 - 2022 DODGE CHARGER TRANSMISSION MOUNT BRACKET SUPPORT OEM 68146569AB",
+        "number": "68146569AB / 68146569 AB",
         "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "3SBPmx89HBWOs8kwaIq1r",
+        "name": "2014-2021 DODGE CHARGER TIRE PRESSURE MONITORING MODULE TPMS UNIT OEM 68219831AF",
+        "number": "68219831AF / 68219831 AF",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "v4s3HtxiChhgKfeQB6ZiG",
+        "name": "2016 - 2022 DODGE CHARGER STEERING WHEEL LEATHER W/ SWITCH BUTTON OEM 5VG202XCAE",
+        "number": "5VG202XCAE / 5VG202XC AE",
+        "oem": "6AD81DX9AA / 6AD81DX9 AA",
+        "notes": ""
+    },
+    {
+        "id": "mSrMZwA7ia13aCtTc-SBr",
+        "name": "2015 - 2022 DODGE CHARGER 6.4L ENGINE STARTER MOTOR 24K MILEAGE OEM 05035102AB",
+        "number": "05035102AB / 05035102 AB\t",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "tCQIs-BmNWhVJhvO1lvMm",
+        "name": "2018 - 2022 DODGE CHARGER STEERING COLUMN HOUSING UPPER & LOWER OEM 6NE95DX9AB",
+        "number": "6NE95DX9AB / 6NE95DX9 AB\t",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "8hOq4Ff759d9f_w363Oop",
+        "name": "2006 - 2022 DODGE CHARGER FRONT LEFT SEAT SWITCH CONTROL MODULE OEM 56049431AE",
+        "number": "56049431AE / 56049431 AE",
+        "oem": "56049431AF / 56049431 AF\t",
+        "notes": ""
+    },
+    {
+        "id": "HX35dSNbkP3I5codAVfV2",
+        "name": "2018 15 16 17 19 20 21 22 DODGE CHARGER FRONT LEFT DOOR SPEAKER OEM 52851560AA",
+        "number": "52851560AA / 52851560 AA, 5064358AB / 5064358 AB",
+        "oem": "2014 / 2015 / 2016 / 2017 / 2018 / 2019 / 2020 / 2021 / 2022",
         "notes": "FITS ANY SIDES, RIGHT AND LEFT"
     },
     {
-        "id": "k-gtqYIc5Ha1qFOs6iP5S",
-        "name": "2012 - 2022 DODGE CHARGER REAR RIGHT OR LEFT SIDE COIL SPRING OEM 68083469AC",
-        "number": "68083469AC / 68083469 AC",
-        "oem": "",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "-xAg3LTvipty8V-4nC55J",
-        "name": "2015 - 2022 DODGE CHARGER 6.4L RADIATOR COOLANT RECOVERY BOTTLE OEM 68237637AB",
-        "number": "68237637AB / 68237637 AB",
+        "id": "CATOWg0Bk0Cj74a6HUgZs",
+        "name": "2015 - 2022 DODGE CHARGER FRONT LEFT AIR INTAKE SHIELD PANEL OEM 68250493AA",
+        "number": "68250493AA / 68250493 AA",
         "oem": "",
         "notes": ""
     },
     {
-        "id": "I-_dykChnaInTJVK8OU0P",
-        "name": "2014 - 2022 DODGE CHARGER HVAC A/C AIR CONDITIONING COMPRESSOR OEM 68158259AF",
-        "number": "68158259AF / 68158259 AF\t",
-        "oem": "",
+        "id": "Oco0h0hJQuOfxIOguQ4_I",
+        "name": "2015 - 2022 DODGE CHARGER FRONT LEFT DRIVER SIDE SEAT TRACK FRAME OEM 0408735AA",
+        "number": "0408735AA / 0408735 AA\t",
+        "oem": "68264615AB / 68264615 AB",
         "notes": ""
     },
     {
-        "id": "Iaf6gIqY40Fv-x786YMfM",
-        "name": "2015 - 2022 DODGE CHARGER FRONT BUMPER COVER OEM 68417502AA BLACK=PX8",
-        "number": "68417502AA / 68417502 AA\t",
-        "oem": "68267765AC / 68267765 AC\t",
+        "id": "5gQ5j8kM0A7Cp3XDjQsYQ",
+        "name": "2019 DODGE CHARGER SPEEDOMETER INSTRUMENT CLUSTER 24K MILEAGE OEM 68396004AC",
+        "number": "68396004AC / 68396004 AC",
+        "oem": "68412303AC / 68412303 AC\t",
         "notes": ""
     },
-    {
-        "id": "lv3uEfe40VJcvB5bzMuju",
-        "name": "2011 - 2022 DODGE CHARGER 6.4L ALTERNATOR GENERAROR 24K MILEAGE OEM 04801834AB",
-        "number": "04801834AB / 04801834 AB\t",
-        "oem": "",
-        "notes": ""
-    },
-    {
-        "id": "YI3UinPjFc2DRwpA6nrmk",
-        "name": "2012 - 2022 DODGE CHARGER 6.4L AIR CLEANER FILTER INTAKE HOSE OEM 05038441AE",
-        "number": "05038441AE / 05038441 AE",
-        "oem": "05038441AF / 05038441 AF\t",
-        "notes": ""
-    },
-    {
-        "id": "FIz1BUn555ODq5P_LnNG6",
-        "name": "2015-2019 DODGE CHARGER FRONT LEFT DOOR TRIM PANEL OEM L0185001DX9AC BLACK=GQX9",
-        "number": "L0185001DX9AC / L0185001DX9 AC",
-        "oem": "5PF031X9AK / 5PF031X9 AK\t",
-        "notes": ""
-    },
-    {
-        "id": "54KZxnyvopNZB0m2heub2",
-        "name": "2012 - 2022 DODGE CHARGER FRONT LEFT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
-        "number": "05181860AA / 05181860 AA",
-        "oem": "",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "7gFm1-76gd-hzvuzT7E43",
-        "name": "2012 - 2022 DODGE CHARGER FRONT RIGHT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
-        "number": "05181860AA / 05181860 AA",
-        "oem": "",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
-    {
-        "id": "ox6SrECbuzeE01AfhpD26",
-        "name": "2011 - 2022 DODGE CHARGER FRONT LEFT SEAT BACK TRIM COVER PANEL OEM L02J2309AC",
-        "number": "L02J2309AC / L02J2309 AC",
-        "oem": "1UY02DX9AC / 1UY02DX9 AC\t",
-        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
-    },
+        {
+            "id": "hfya_RU2YK9uCvztqqw8j",
+            "name": "2015 - 2022 DODGE CHARGER FRONT UPPER RADIATOR SUPPORT BRACKET OEM 68200478AA",
+            "number": "68200478AA / 68200478 AA",
+            "oem": "68200478AC / 68200478 AC\t",
+            "notes": ""
+        },
+        {
+            "id": "Asog5aTQC5ld5zuJlRkjp",
+            "name": "2006 - 2022 DODGE CHARGER FRONT LOWER RADIATOR SUPPORT BRACKET OEM 05065240AG",
+            "number": "05065240AG / 05065240 AG",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "mpQVVzZO3uAhlUi1apCJ4",
+            "name": "2015 - 2022 DODGE CHARGER LEFT SIDE ROCKER MOLDING COVER PANEL OEM 1QA51TRMAE",
+            "number": "1QA51TRMAE / 1QA51TRM AE",
+            "oem": "68433579AC / 68433579 AC\t",
+            "notes": ""
+        },
+        {
+            "id": "GV_Sml_lpbLomsYkzB46p",
+            "name": "2011 - 2022 DODGE CHARGER REAR LEFT DOOR WINDOW GLASS REGULATOR OEM 156054332",
+            "number": "156054332",
+            "oem": "68103999AA / 68103999 AA\t",
+            "notes": ""
+        },
+        {
+            "id": "y_qLpKwLPAy8DHbpB-IwL",
+            "name": "2011 - 2022 DODGE CHARGER REAR LEFT SIDE DOOR LATCH LOCK ACTUATOR OEM 04589915AE",
+            "number": "04589915AE / 04589915 AE",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "L0IiOlVkP8VmCn8X4_Nez",
+            "name": "2006 - 2022 DODGE CHARGER 6.4L ENGINE COOLING RADIATOR ASSEMBLY OEM 1007742AA",
+            "number": "1007742AA / 1007742 AA",
+            "oem": "5170742AA / 5170742 AA",
+            "notes": ""
+        },
+        {
+            "id": "TufEeDy5JsWjzH9yZ9OSH",
+            "name": "2014 - 2022 DODGE CHARGER POWER BRAKE BOOSTER W/ RESERVOIR OEM 68053596AA",
+            "number": "68053596AA / 68053596 AA\t",
+            "oem": "68237808AC / 68237808 AC",
+            "notes": ""
+        },
+        {
+            "id": "TWaM1vQtHvUAKMsa5hcF2",
+            "name": "2013 - 2019 DODGE CHARGER REAR RIGHT EXTERIOR DOOR HANDLE OEM 761066AC BLACK=PX8",
+            "number": "761066AC / 761066 AC\t",
+            "oem": "1MZ80FHGAG / 1MZ80FHG AG\t",
+            "notes": ""
+        },
+        {
+            "id": "OypqvoNsAzuctvvqDERB5",
+            "name": "2012 - 2022 DODGE CHARGER REAR LEFT EXTERIOR DOOR HANDLE OEM 761067AC BLACK=PX8",
+            "number": "761067AC / 761067 AC\t",
+            "oem": "1MZ81DX8AH / 1MZ81DX8 AH\t",
+            "notes": ""
+        },
+        {
+            "id": "SBvcLNgI9IM4gdi7UkT2E",
+            "name": "2015 - 2022 DODGE CHARGER FRONT RIGHT FENDER LINER SPLASH SHIELD OEM 68477156AA",
+            "number": "68477156AA / 68477156 AA\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "_HEkxUX6zlFIZuj70cv9g",
+            "name": "2015 - 2022 DODGE CHARGER FRONT LEFT FENDER LINER SPLASH SHIELD OEM 68205937AF",
+            "number": "68205937AF / 68205937 AF\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "teRRxHh0SXWb1NfzUDb9C",
+            "name": "2011 - 2022 DODGE CHARGER FRONT LEFT REARWARD LOWER CONTROL ARM OEM 70206823",
+            "number": "70206823",
+            "oem": "5168389AB / 5168389 AB\t",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "UcFxFJpWOfnenCU0_ecdq",
+            "name": "2015 - 2022 DODGE CHARGER REAR RIGHT INTERIOR DOOR PULL HANDLE OEM 5PF60DX9AE",
+            "number": "5PF60DX9AE / 5PF60DX9 AE",
+            "oem": "5PF60DX9AF / 5PF60DX9 AF\t",
+            "notes": ""
+        },
+        {
+            "id": "PAntPCtnVEwx3IkeLDTDc",
+            "name": "2011 - 2019 DODGE CHARGER FUEL FILLER TANK DOOR HOUSING BASE OEM 68037875AD",
+            "number": "68037875AD / 68037875 AD\t",
+            "oem": "68037875AE / 68037875 AE",
+            "notes": ""
+        },
+        {
+            "id": "L5FGN8oRe2qtJeoA25fs6",
+            "name": "2011 - 2022 DODGE CHARGER FRONT RIGHT SIDE SEAT BELT RETRACTOR OEM 1HZ06DX9AH",
+            "number": "1HZ06DX9AH / 1HZ06DX9 AH",
+            "oem": "1HZ06DX9AI / 1HZ06DX9 AI",
+            "notes": ""
+        },
+        {
+            "id": "54IWTZ-qervce29MA7xUl",
+            "name": "2011-2022 DODGE CHARGER FRONT LEFT SIDE DOOR LOCK LATCH ACTUATOR OEM 04589913AG",
+            "number": "04589913AG / 04589913 AG",
+            "oem": "4589913AB / 4589913 AB",
+            "notes": ""
+        },
+        {
+            "id": "bbmNIi_tmkw3xA2XIMcFm",
+            "name": "2015 - 2022 DODGE CHARGER 6.4L ENGINE RIGHT SIDE SHIELD COVER OEM 05281358AA",
+            "number": "5281358AA / 5281358 AA",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "oQJ-pvwrcXFG2GXtjmS15",
+            "name": "2015 - 2022 DODGE CHARGER 6.4L ENGINE LEFT SIDE SHIELD COVER OEM 05281359AA",
+            "number": "5281358AA / 5281358 AA\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "XsYsZ8buCfOjxoqkRC-NH",
+            "name": "2011 -2020 DODGE CHARGER FRONT LEFT SEAT LUMBAR ADJUSTMENT SWITCH OEM 56046232AB",
+            "number": "56046232AB / 56046232 AB\t",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT"
+        },
+        {
+            "id": "k-gtqYIc5Ha1qFOs6iP5S",
+            "name": "2012 - 2022 DODGE CHARGER REAR RIGHT OR LEFT SIDE COIL SPRING OEM 68083469AC",
+            "number": "68083469AC / 68083469 AC",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "-xAg3LTvipty8V-4nC55J",
+            "name": "2015 - 2022 DODGE CHARGER 6.4L RADIATOR COOLANT RECOVERY BOTTLE OEM 68237637AB",
+            "number": "68237637AB / 68237637 AB",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "I-_dykChnaInTJVK8OU0P",
+            "name": "2014 - 2022 DODGE CHARGER HVAC A/C AIR CONDITIONING COMPRESSOR OEM 68158259AF",
+            "number": "68158259AF / 68158259 AF\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "Iaf6gIqY40Fv-x786YMfM",
+            "name": "2015 - 2022 DODGE CHARGER FRONT BUMPER COVER OEM 68417502AA BLACK=PX8",
+            "number": "68417502AA / 68417502 AA\t",
+            "oem": "68267765AC / 68267765 AC\t",
+            "notes": ""
+        },
+        {
+            "id": "lv3uEfe40VJcvB5bzMuju",
+            "name": "2011 - 2022 DODGE CHARGER 6.4L ALTERNATOR GENERAROR 24K MILEAGE OEM 04801834AB",
+            "number": "04801834AB / 04801834 AB\t",
+            "oem": "",
+            "notes": ""
+        },
+        {
+            "id": "YI3UinPjFc2DRwpA6nrmk",
+            "name": "2012 - 2022 DODGE CHARGER 6.4L AIR CLEANER FILTER INTAKE HOSE OEM 05038441AE",
+            "number": "05038441AE / 05038441 AE",
+            "oem": "05038441AF / 05038441 AF\t",
+            "notes": ""
+        },
+        {
+            "id": "FIz1BUn555ODq5P_LnNG6",
+            "name": "2015-2019 DODGE CHARGER FRONT LEFT DOOR TRIM PANEL OEM L0185001DX9AC BLACK=GQX9",
+            "number": "L0185001DX9AC / L0185001DX9 AC",
+            "oem": "5PF031X9AK / 5PF031X9 AK\t",
+            "notes": ""
+        },
+        {
+            "id": "54KZxnyvopNZB0m2heub2",
+            "name": "2012 - 2022 DODGE CHARGER FRONT LEFT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
+            "number": "05181860AA / 05181860 AA",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "7gFm1-76gd-hzvuzT7E43",
+            "name": "2012 - 2022 DODGE CHARGER FRONT RIGHT SIDE SHOCK STRUT ASSEMBLY OEM 05181860AA",
+            "number": "05181860AA / 05181860 AA",
+            "oem": "",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
+        {
+            "id": "ox6SrECbuzeE01AfhpD26",
+            "name": "2011 - 2022 DODGE CHARGER FRONT LEFT SEAT BACK TRIM COVER PANEL OEM L02J2309AC",
+            "number": "L02J2309AC / L02J2309 AC",
+            "oem": "1UY02DX9AC / 1UY02DX9 AC\t",
+            "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+        },
 
         {
             "id": "vF8vyPpwdgC9Y0WmzleI_",
