@@ -7,6 +7,34 @@ import ContactList from './ContactList';
 export function App() {
 
     const [contacts, setContacts] = useState([
+        {
+        "id": "9hN0OAfL_S1mSEdYfqgah",
+        "name": "2021 - 2022 CHEVROLET TRAILBLAZER REAR LEFT STEERING KNUCKLE HUB OEM 13530971",
+        "number": "13530971",
+        "oem": "",
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+    },
+    {
+        "id": "bkyRzxpSJYZ8dwRF8VfJB",
+        "name": "2021 - 2022 CHEVROLET TRAILBLAZER REAR RIGHT STEERING KNUCKLE HUB OEM 13530971",
+        "number": "13530971",
+        "oem": "",
+        "notes": "FITS ANY SIDES, RIGHT AND LEFT."
+    },
+    {
+        "id": "YfuSyVcFigStd2Pnu5ohF",
+        "name": "2021-2022 CHEVROLET TRAILBLAZER REAR RIGHT DOOR INTERIOR TRIM PANEL OEM 42776574",
+        "number": "42776574",
+        "oem": "",
+        "notes": ""
+    },
+    {
+        "id": "TWiQBBfYVFVmkuY-ZquKn",
+        "name": "2021- 2022 CHEVROLET TRAILBLAZER REAR LEFT DOOR INTERIOR TRIM PANEL OEM 42776572",
+        "number": "42776572",
+        "oem": "",
+        "notes": ""
+    },
     {
         "id": "t8uOwvshsnhvC7k79HbeN",
         "name": "2015 - 2022 DODGE CHARGER FRONT LEFT A PILLAR TRIM COVER PANEL OEM 5SH69TRMAA",
